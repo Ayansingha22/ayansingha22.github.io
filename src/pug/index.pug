@@ -70,7 +70,7 @@ html(lang='en')
                         br
                         | Hi, my name is Ayan Singha. I am a pre-final year UG student at IIT Kharagpur. I am from Siliguri, WB, India. 
                         br
-                        | I have a keen interest in AI, Machine Learning and Deep Learning, specifically in the field of Computer Vision and Forecasting in Time Series Data Analysis. I am also equipped with Natural Language Processing and LLM. I aspire to solve the real-world problems and build or contribute to the applications that can be helpful for mankind.
+                        | I have a keen interest in AI, Machine Learning and Deep Learning, specifically in the field of Computer Vision and Forecasting in Time Series Data Analysis. I am also equipped with the knowledge of NLP and LLMs. I aspire to solve the real-world problems and build or contribute to the applications that can be helpful for mankind.
                         br
                         br
                         | Do connect with me using below mentioned handles!
@@ -90,8 +90,9 @@ html(lang='en')
                     .d-flex.flex-column.flex-md-row.justify-content-between.mb-5
                         .flex-grow-1
                             h3.mb-0 Indian Institute of Technology Kharagpur
-                            .subheading.mb-3 Dual Degree (M.Tech) in Agricultural and Food Engineering
-                            p Overall CGPA: 8.35 (out of 10)
+                            .subheading.mb-0 Major: Agricultural and Food Engineering (Dual Degree M.Tech)
+                            .subheading.mb-3 Micro: Artificial Intelligence and Applications
+                            p Overall CGPA: 8.35
                             //- | Major CGPA: 9.03
                         .flex-shrink-0
                             span.text-primary Expected May 2026
@@ -99,16 +100,16 @@ html(lang='en')
                     .d-flex.flex-column.flex-md-row.justify-content-between.mb-5
                         .flex-grow-1
                             h3.mb-0 BSF Senior Secondary Residential School, Kadamtala
-                            .subheading.mb-3 Higher Secondary (CBSE)
-                            p Percentage: 96.6
+                            .subheading.mb-3 Higher Secondary Class XII (CBSE)
+                            p Percentage: 96.6%
                         .flex-shrink-0
                             span.text-primary 2021
                     
                     .d-flex.flex-column.flex-md-row.justify-content-between
                         .flex-grow-1
                             h3.mb-0 Good Shepherd School, Bagdogra
-                            .subheading.mb-3 Secondary (ICSE)
-                            p Percentage: 96.4
+                            .subheading.mb-3 Secondary Class X (ICSE)
+                            p Percentage: 96.4%
                         .flex-shrink-0
                             span.text-primary 2019
 
@@ -125,7 +126,7 @@ html(lang='en')
                             .subheading.mb-3 Research Internship (Signal Processing and Artificial Intelligence Group, IIT Kharagpur)
                             ul
                             li Analyzed time series data to combine temporal variations and frequency data using FFT/DFT for Forecasting
-                            li Explored new paradigm of AI, Complex-valued neural network to apply for 5 state-of-the art time series tasks
+                            li Explored new paradigm of AI, Complex-Valued neural network to apply for 5 state-of-the art time series tasks
                             li Analyzed existing models like FEDformer, Autoformer, TimesNet that uses PyTorch and compared the results
                         .flex-shrink-0
                             span.text-primary Feb 2024 &mdash; Present
@@ -145,14 +146,32 @@ html(lang='en')
             // Projects
             section#projects.resume-section
                .resume-section-content
-                    h2.mb-5 Projects
+                    h2.mb-5 Projects                    
+
+                    .d-flex.flex-column.flex-md-row.justify-content-between.mb-5
+                        .flex-grow-1
+                            h3.mb-0 Entity-Based Sentiment Analysis
+                            .subheading.mb-3 PyABSA | BERT | Fast_LCF
+                            ul
+                            li Researched the working of the Aspect Sentiment Analysis paper and implemented it on the Entity Sentiment Analysis
+                            li Applied SRD (Semantic Relative Distance) for Local Context Focus to differentiate Local Context from Global Context
+                            li Compiled custom dataset to overcome problems like underfitting and class imbalance by introducing new samples
+                            //- p
+                            //-     | #[strong Collected a dataset of 50k benign samples] by innovatively tackling the copyright hinderance; working towards publishing the novelty and the dataset
+                                //- <br>
+                                //- | #[i side note:] to the best of our knowledge, such a massive collection of benign samples does not exist yet. Therefore, #[strong we intend to establish a yardstick for the whole domain]
+
+                        .flex-shrink-0
+                            a.subheading.demo-links.social-icon(href='https://github.com/Ayansingha22/Entity-Based-Sentiment-Analysis', target="_blank")
+                                i.fab.fa-github
+                                | Github
 
                     .d-flex.flex-column.flex-md-row.justify-content-between.mb-5
                         .flex-grow-1
                             h3.mb-0 Document-Genie | AI Chatbot
-                            .subheading.mb-3 LangChain, Streamlit, FAISS, Generative AI
+                            .subheading.mb-3 LangChain | Streamlit | FAISS | Generative AI
                             ul
-                            li  Developed and deployed an AI Chatbot on Streamlit Community Cloud which responds to queries from uploaded docs
+                            li Developed and deployed an AI Chatbot on Streamlit Community Cloud which responds to queries from uploaded docs
                             li Utilized Langchain, Streamlit, RAG process to minimize hallucinations, FAISS vector database for efficient data retrieval
                             li Employed PyPDF2 for PDF reading and integrated Google API keys to access Google Generative AI model Gemini-PRO
                             //- p
@@ -168,7 +187,7 @@ html(lang='en')
                     .d-flex.flex-column.flex-md-row.justify-content-between.mb-5
                         .flex-grow-1
                             h3.mb-0 Image Reconstruction
-                            .subheading.mb-3 BiLSTM, Pix2Pix, Stable Diffusion
+                            .subheading.mb-3 BiLSTM | Pix2Pix | Stable Diffusion
                             ul
                             li Reconstructed and restored masked images with two 75x75 blacked-out pats using image reconstruction techniques
                             li Employed various machine learning techniques like  Pix2Pix, Stable Diffusion, and BiLSTM for image reconstruction
@@ -242,24 +261,42 @@ html(lang='en')
 
             hr.m-0
 
-            // Position of Responsibility
+            // Certifications
             section#por.resume-section
                 .resume-section-content
-                    h2.mb-5 Position of Responsibility
+                    h2.mb-5 Certifcations
 
-                    .d-flex.flex-column.flex-md-row.justify-content-between.mb-5
+                    .d-flex.flex-column.flex-md-row.justify-content-between.mb-1
                         .flex-grow-1
-                            h3.mb-0 Secretary: Photography and Videography
-                            .subheading.mb-3 Technology Students’ Gymkhana — IIT Kharagpur
-                        .flex-shrink-0
-                            span.text-primary Oct' 2022 &mdash; Apr' 2023
+                            h5.mb-0 Machine Learning Specialization
 
-                    .d-flex.flex-column.flex-md-row.justify-content-between.mb-5
-                        .flex-grow-1
-                            h3.mb-0 Secretary: Mess Committee Member
-                            .subheading.mb-3 Rajendra Prasad Hall of Residence — IIT Kharagpur
                         .flex-shrink-0
-                            span.text-primary Oct' 2022 &mdash; Apr' 2023
+                            a.subheading.demo-links.social-icon(href='https://coursera.org/share/27a5e41c12fe0241001577a54ea41fa5', target="_blank")
+                                | Link
+
+                    .d-flex.flex-column.flex-md-row.justify-content-between.mb-1
+                        .flex-grow-1
+                            h5.mb-0 AI for Everyone
+
+                        .flex-shrink-0
+                            a.subheading.demo-links.social-icon(href='https://coursera.org/share/9322aeb015b6b1c811683653908caa5d', target="_blank")
+                                | Link    
+
+                    .d-flex.flex-column.flex-md-row.justify-content-between.mb-1
+                        .flex-grow-1
+                            h5.mb-0 Neural Networks and Deep Learning
+
+                        .flex-shrink-0
+                            a.subheading.demo-links.social-icon(href='https://coursera.org/share/5a5ef18edf6afea58dda682476717a35', target="_blank")
+                                | Link       
+
+                    .d-flex.flex-column.flex-md-row.justify-content-between.mb-1
+                        .flex-grow-1
+                            h5.mb-0 Web Design for Everybody Capstone
+
+                        .flex-shrink-0
+                            a.subheading.demo-links.social-icon(href='https://coursera.org/share/fcc7c11b7ec74eb3c870da5ece4bc03f', target="_blank")
+                                | Link                                                                                                                          
 
         // Bootstrap core JS
         script(src='https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/js/bootstrap.bundle.min.js')
